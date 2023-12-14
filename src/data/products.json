@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Clever Clock"
+    },
+    {
+      "id": 2,
+      "name": "Red Lamp"
+    },
+    {
+      "id": 3,
+      "name": "Sleek Table"
+    },
+    {
+      "id": 4,
+      "name": "Green Keyboard"
+    },
+    {
+      "id": 5,
+      "name": "Yellow Sofa"
+    },
+    {
+      "id": 6,
+      "name": "Purple Chair"
+    },
+    {
+      "id": 7,
+      "name": "Elegant Monitor"
+    },
+    {
+      "id": 8,
+      "name": "Swift Mouse"
+    },
+    {
+      "id": 9,
+      "name": "Blue Bookshelf"
+    },
+    {
+      "id": 10,
+      "name": "Red Clock"
+    }
+  ]
+}
