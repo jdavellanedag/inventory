@@ -5,10 +5,13 @@ import Footer from "../components/Footer.jsx";
 import data from "../data/products.json";
 
 import SearchBar from "../components/SearchBar.jsx";
+import Table from "../components/Table.jsx";
 
 const Home = () => {
 
     const [filteredProducts, setFilteredProducts] = useState(data.products);
+
+    const fields = Object.keys(data.products.find((e) => e.id !== undefined));
 
     const onSearchCallback = (searchCriteria) => {
         const filteredItems = data.products.filter((product) =>
@@ -17,17 +20,17 @@ const Home = () => {
         setFilteredProducts(filteredItems)
     }
 
+    console.log(fields);
+
     return (
         <>
             <NavBar/>
-            <main className="flex flex-col p-2 gap-y-5">
+            <dvi className="flex flex-col p-2 gap-y-5">
                 <SearchBar callback={onSearchCallback} />
                 <div>
-                    {
-                        filteredProducts.map(({id, name}) => <p key={id}>{name}</p>)
-                    }
+                    <Table fields={fields} data={filteredProducts} />
                 </div>
-            </main>
+            </dvi>
             <Footer/>
         </>
     );

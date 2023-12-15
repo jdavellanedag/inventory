@@ -1,44 +1,704 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Clever Clock"
+      "id": "9134431A-C9D5-C77C-589D-546C6822E5A0",
+      "name": "mi. Aliquam gravida",
+      "price": 10,
+      "tax_percentage": 2,
+      "stock": 11
     },
     {
-      "id": 2,
-      "name": "Red Lamp"
+      "id": "8E319329-B74E-371F-9BE6-3D561B7DD124",
+      "name": "aliquam iaculis, lacus",
+      "price": 90,
+      "tax_percentage": 10,
+      "stock": 45
     },
     {
-      "id": 3,
-      "name": "Sleek Table"
+      "id": "B7E55381-B26D-7EC6-52AC-5146E87D5A71",
+      "name": "felis ullamcorper viverra.",
+      "price": 21,
+      "tax_percentage": 4,
+      "stock": 8
     },
     {
-      "id": 4,
-      "name": "Green Keyboard"
+      "id": "57C33C63-B800-AD58-4345-8EDE6813E6A1",
+      "name": "ipsum",
+      "price": 3,
+      "tax_percentage": 8,
+      "stock": 17
     },
     {
-      "id": 5,
-      "name": "Yellow Sofa"
+      "id": "04ABF86E-BE53-D9DB-7704-4334B003BB45",
+      "name": "nisl. Maecenas",
+      "price": 46,
+      "tax_percentage": 1,
+      "stock": 41
     },
     {
-      "id": 6,
-      "name": "Purple Chair"
+      "id": "4E6D522D-4B92-D2BA-A260-C2DA1C234E86",
+      "name": "Integer aliquam",
+      "price": 20,
+      "tax_percentage": 5,
+      "stock": "0"
     },
     {
-      "id": 7,
-      "name": "Elegant Monitor"
+      "id": "CC46ED76-2731-6D5D-9CDD-D627151A1572",
+      "name": "ante ipsum",
+      "price": 47,
+      "tax_percentage": 1,
+      "stock": 2
     },
     {
-      "id": 8,
-      "name": "Swift Mouse"
+      "id": "754C5CCA-7CB8-7169-C1E1-C625E467C19F",
+      "name": "eu metus.",
+      "price": 41,
+      "tax_percentage": 3,
+      "stock": 11
     },
     {
-      "id": 9,
-      "name": "Blue Bookshelf"
+      "id": "3BBDEF54-A819-8C53-5918-ABC96A465DF9",
+      "name": "Pellentesque habitant",
+      "price": 60,
+      "tax_percentage": 6,
+      "stock": 31
     },
     {
-      "id": 10,
-      "name": "Red Clock"
+      "id": "4D3C6BF5-4EDF-EE49-FDB3-DC1179E414A1",
+      "name": "ipsum. Suspendisse non",
+      "price": 90,
+      "tax_percentage": 10,
+      "stock": 2
+    },
+    {
+      "id": "6AA832EA-44E9-1614-9791-D5558012B647",
+      "name": "primis in faucibus",
+      "price": 21,
+      "tax_percentage": 4,
+      "stock": 8
+    },
+    {
+      "id": "E1218329-70CA-8DAC-40D7-2EEC78366591",
+      "name": "aliquam arcu.",
+      "price": 76,
+      "tax_percentage": 4,
+      "stock": 49
+    },
+    {
+      "id": "4CAD832C-1C24-E9AB-C557-3908A6B8929A",
+      "name": "Ut",
+      "price": 79,
+      "tax_percentage": 2,
+      "stock": 11
+    },
+    {
+      "id": "D98DD187-2B96-D525-426C-6D4054D9CDC6",
+      "name": "sem,",
+      "price": 38,
+      "tax_percentage": 6,
+      "stock": 48
+    },
+    {
+      "id": "2B671BF3-328E-12DB-2F17-FFEDF0B247D9",
+      "name": "Mauris",
+      "price": 22,
+      "tax_percentage": 6,
+      "stock": 37
+    },
+    {
+      "id": "BB1DBD37-F035-FD41-A3E2-57628E914519",
+      "name": "nibh enim,",
+      "price": 21,
+      "tax_percentage": 8,
+      "stock": 37
+    },
+    {
+      "id": "BEBEF8A9-D568-9BB1-F5E5-03C488F35B47",
+      "name": "placerat, augue.",
+      "price": 14,
+      "tax_percentage": 9,
+      "stock": 13
+    },
+    {
+      "id": "A6F86702-771B-26FD-5A4E-565924B47699",
+      "name": "Suspendisse tristique neque",
+      "price": 62,
+      "tax_percentage": 1,
+      "stock": 8
+    },
+    {
+      "id": "57CE61B2-A63A-7A1D-6C33-18786CADDB12",
+      "name": "porttitor eros nec",
+      "price": 2,
+      "tax_percentage": 3,
+      "stock": 40
+    },
+    {
+      "id": "84437087-4FFA-9947-61E9-5DCBD7AE8C19",
+      "name": "euismod",
+      "price": 48,
+      "tax_percentage": 7,
+      "stock": 31
+    },
+    {
+      "id": "F3D88B65-34E1-204C-FBB1-85FE884B4457",
+      "name": "eu turpis. Nulla",
+      "price": 11,
+      "tax_percentage": 2,
+      "stock": 32
+    },
+    {
+      "id": "8BD96376-CEF9-7447-2C4A-B6633AC8C9BF",
+      "name": "elit. Curabitur sed",
+      "price": 42,
+      "tax_percentage": 8,
+      "stock": 42
+    },
+    {
+      "id": "BA7CCAC1-72CD-3218-4CFD-4D5E4343A825",
+      "name": "lacus. Quisque",
+      "price": 44,
+      "tax_percentage": 6,
+      "stock": 2
+    },
+    {
+      "id": "8C4D59BC-6C80-F9A4-B039-A01C17130B58",
+      "name": "Proin vel",
+      "price": 64,
+      "tax_percentage": 4,
+      "stock": 41
+    },
+    {
+      "id": "9E3288E6-B456-33E8-D490-D8DB5D8EC2A8",
+      "name": "volutpat. Nulla facilisis.",
+      "price": 44,
+      "tax_percentage": "0",
+      "stock": 45
+    },
+    {
+      "id": "C12A49A8-FEF3-227E-CE24-BD42DA754F83",
+      "name": "dui.",
+      "price": 41,
+      "tax_percentage": 7,
+      "stock": 24
+    },
+    {
+      "id": "C83F1096-B847-06E7-B30C-191161437457",
+      "name": "imperdiet nec,",
+      "price": 26,
+      "tax_percentage": 10,
+      "stock": 49
+    },
+    {
+      "id": "41E28510-1EF8-BEDA-4A7A-60D6ACC283A2",
+      "name": "lacus. Quisque",
+      "price": 78,
+      "tax_percentage": 6,
+      "stock": 24
+    },
+    {
+      "id": "0A28331B-22A5-02B7-443A-CE7C3F063A46",
+      "name": "ligula. Aenean gravida",
+      "price": 91,
+      "tax_percentage": 4,
+      "stock": 36
+    },
+    {
+      "id": "4A8B3491-4468-DF73-511C-836E64756A95",
+      "name": "metus urna convallis",
+      "price": 19,
+      "tax_percentage": 7,
+      "stock": 7
+    },
+    {
+      "id": "68F0BFCD-7BBE-501E-38A2-6D79D43A78E6",
+      "name": "libero. Proin",
+      "price": 56,
+      "tax_percentage": "0",
+      "stock": 20
+    },
+    {
+      "id": "CD328F9E-B4B8-D160-DB76-AFEA3B2D1EE0",
+      "name": "placerat eget,",
+      "price": 34,
+      "tax_percentage": 6,
+      "stock": 8
+    },
+    {
+      "id": "6D1ACDBE-95E1-43D8-BC3D-05A48550702D",
+      "name": "arcu. Vivamus",
+      "price": 97,
+      "tax_percentage": 5,
+      "stock": 15
+    },
+    {
+      "id": "6BC91DB7-07A9-9AD1-37DC-59A16EF8351B",
+      "name": "fermentum vel,",
+      "price": 31,
+      "tax_percentage": 3,
+      "stock": 8
+    },
+    {
+      "id": "646D44B6-B4FC-C3EB-5251-36E8332C71ED",
+      "name": "Suspendisse",
+      "price": 23,
+      "tax_percentage": 7,
+      "stock": 39
+    },
+    {
+      "id": "488E40DE-7B38-AB06-F1EB-127561E5656F",
+      "name": "ac turpis",
+      "price": 56,
+      "tax_percentage": 6,
+      "stock": 23
+    },
+    {
+      "id": "CCB91E1E-448B-CFB4-E22C-1D39165CC2F4",
+      "name": "libero. Proin sed",
+      "price": 64,
+      "tax_percentage": 2,
+      "stock": 16
+    },
+    {
+      "id": "2D099183-0B91-B321-4A6D-9B9ADCC7B882",
+      "name": "lectus justo eu",
+      "price": 75,
+      "tax_percentage": 5,
+      "stock": 38
+    },
+    {
+      "id": "8AE4D06C-B4F5-7C56-846F-AB8A4B5766ED",
+      "name": "Ut",
+      "price": 26,
+      "tax_percentage": 2,
+      "stock": 3
+    },
+    {
+      "id": "C428BBE2-3845-A135-ABB4-3C8E47D81946",
+      "name": "Vivamus",
+      "price": 21,
+      "tax_percentage": 3,
+      "stock": 2
+    },
+    {
+      "id": "39C3C4AF-20DA-C66A-382E-7585614D595E",
+      "name": "risus. Nunc",
+      "price": 74,
+      "tax_percentage": 4,
+      "stock": 12
+    },
+    {
+      "id": "670C221A-8717-C1D3-D0CD-E5214D291987",
+      "name": "faucibus ut,",
+      "price": 23,
+      "tax_percentage": 7,
+      "stock": 26
+    },
+    {
+      "id": "E605F7CC-987B-E429-6944-919D64C69965",
+      "name": "neque. Morbi",
+      "price": 89,
+      "tax_percentage": 3,
+      "stock": 48
+    },
+    {
+      "id": "16BA6B31-223D-2168-D1BA-0B2D3968D22D",
+      "name": "eu",
+      "price": 74,
+      "tax_percentage": 5,
+      "stock": 22
+    },
+    {
+      "id": "A799B890-B9E7-831C-2C28-7222E1DDB493",
+      "name": "Etiam vestibulum",
+      "price": 94,
+      "tax_percentage": 3,
+      "stock": 16
+    },
+    {
+      "id": "2962E2D8-6849-D476-B9F8-D51AF9E9829F",
+      "name": "tristique neque",
+      "price": 19,
+      "tax_percentage": 1,
+      "stock": 14
+    },
+    {
+      "id": "119E325E-DE7F-8B8A-5EB5-5A9DDBB65656",
+      "name": "ipsum dolor",
+      "price": 7,
+      "tax_percentage": 5,
+      "stock": 34
+    },
+    {
+      "id": "FFA42B80-9723-6A02-A43A-BC25E7101FB8",
+      "name": "nisl arcu iaculis",
+      "price": 63,
+      "tax_percentage": 9,
+      "stock": 19
+    },
+    {
+      "id": "014D3C53-B2D8-0E72-2CD8-4E5B105CEC1B",
+      "name": "ut,",
+      "price": 65,
+      "tax_percentage": 5,
+      "stock": 2
+    },
+    {
+      "id": "655D9ED5-064A-8169-3DED-1382C262AE53",
+      "name": "facilisis lorem",
+      "price": 68,
+      "tax_percentage": 8,
+      "stock": 43
+    },
+    {
+      "id": "E3FB96BA-6D88-431B-8D3E-7DB6E07A3CB7",
+      "name": "magna, malesuada",
+      "price": 19,
+      "tax_percentage": 3,
+      "stock": 14
+    },
+    {
+      "id": "5AF26630-76E1-86A5-48DA-1A6CA44CC9A2",
+      "name": "commodo at,",
+      "price": 53,
+      "tax_percentage": 9,
+      "stock": 33
+    },
+    {
+      "id": "25629B28-B81A-2C8D-728C-23A57F1AA376",
+      "name": "ullamcorper.",
+      "price": 92,
+      "tax_percentage": 5,
+      "stock": 7
+    },
+    {
+      "id": "5217AE6B-9F7D-84ED-40FE-CA54831117AE",
+      "name": "semper pretium",
+      "price": 35,
+      "tax_percentage": 1,
+      "stock": 28
+    },
+    {
+      "id": "6C2A24E5-B342-A408-648B-6631D103CE83",
+      "name": "sit amet,",
+      "price": 99,
+      "tax_percentage": 8,
+      "stock": 44
+    },
+    {
+      "id": "76934ABE-D564-8354-472A-D8E4362B8A2D",
+      "name": "cursus, diam",
+      "price": 43,
+      "tax_percentage": "0",
+      "stock": 4
+    },
+    {
+      "id": "9A2F3C1C-8935-1EB7-BD9B-833EE8E530F3",
+      "name": "sed sem",
+      "price": 30,
+      "tax_percentage": 8,
+      "stock": 11
+    },
+    {
+      "id": "A4B856D4-754D-5A96-31F3-870C40116ABC",
+      "name": "In nec orci.",
+      "price": 18,
+      "tax_percentage": 9,
+      "stock": 36
+    },
+    {
+      "id": "43831AD5-AD41-BB72-CC4B-5A359A387D03",
+      "name": "vitae nibh.",
+      "price": 40,
+      "tax_percentage": 4,
+      "stock": 26
+    },
+    {
+      "id": "E32796A5-79E8-9AE1-981A-E4A7C767EC6A",
+      "name": "elit, dictum",
+      "price": 40,
+      "tax_percentage": 7,
+      "stock": 10
+    },
+    {
+      "id": "FA6D4358-9B5C-669B-90C9-139CD2F1BEE8",
+      "name": "ac metus",
+      "price": 21,
+      "tax_percentage": 7,
+      "stock": 10
+    },
+    {
+      "id": "4EFD47D5-7618-646C-18F1-9856CD1EE23C",
+      "name": "auctor ullamcorper,",
+      "price": 33,
+      "tax_percentage": 4,
+      "stock": 18
+    },
+    {
+      "id": "16AE120A-3CAE-5EB3-7A5D-A6F9C7B7F28C",
+      "name": "Sed",
+      "price": 50,
+      "tax_percentage": 2,
+      "stock": 2
+    },
+    {
+      "id": "DDD9D09D-ED75-6022-87CA-E68D9ECA2D47",
+      "name": "aliquam eros",
+      "price": 79,
+      "tax_percentage": 6,
+      "stock": 19
+    },
+    {
+      "id": "752A2816-C809-CE39-98E3-5D87516E682C",
+      "name": "amet metus.",
+      "price": 88,
+      "tax_percentage": 6,
+      "stock": 15
+    },
+    {
+      "id": "67EC423D-3189-FA25-E6DC-B4548E90B294",
+      "name": "risus.",
+      "price": 29,
+      "tax_percentage": 3,
+      "stock": 35
+    },
+    {
+      "id": "FA193ED8-4E3E-4EAE-5DC5-79C781ACD399",
+      "name": "natoque penatibus",
+      "price": 18,
+      "tax_percentage": 1,
+      "stock": 47
+    },
+    {
+      "id": "AC3EABD7-49BE-7748-BEEC-A46B5CFD2A24",
+      "name": "in,",
+      "price": 13,
+      "tax_percentage": 3,
+      "stock": 25
+    },
+    {
+      "id": "27E48804-1DE7-6785-E4A4-1DA1E3A9168D",
+      "name": "Fusce dolor quam,",
+      "price": 8,
+      "tax_percentage": 1,
+      "stock": 21
+    },
+    {
+      "id": "EAC86C6C-ECAD-7886-E427-A16AFD6E1E1F",
+      "name": "enim, condimentum eget,",
+      "price": 51,
+      "tax_percentage": 6,
+      "stock": 24
+    },
+    {
+      "id": "27A2319A-8307-2DF0-9EE2-47C1FCCC4BE5",
+      "name": "justo.",
+      "price": 27,
+      "tax_percentage": 7,
+      "stock": 36
+    },
+    {
+      "id": "BC2E08FD-E2A9-75A4-8663-74F24448FA64",
+      "name": "ac sem ut",
+      "price": 41,
+      "tax_percentage": 5,
+      "stock": 2
+    },
+    {
+      "id": "BE8E357F-B675-D0BE-EE2C-41639EEF5119",
+      "name": "ligula. Aenean euismod",
+      "price": 71,
+      "tax_percentage": 5,
+      "stock": 41
+    },
+    {
+      "id": "B51232AE-E58B-C43A-C690-C5A144CDD7E5",
+      "name": "ut, molestie",
+      "price": 73,
+      "tax_percentage": 7,
+      "stock": 47
+    },
+    {
+      "id": "3E527B8E-4AAC-951A-5DD3-A679ED7DD124",
+      "name": "Integer mollis.",
+      "price": 49,
+      "tax_percentage": 2,
+      "stock": 42
+    },
+    {
+      "id": "88A8B104-42DE-3A71-9663-D3388140A54B",
+      "name": "egestas blandit.",
+      "price": 98,
+      "tax_percentage": 6,
+      "stock": 20
+    },
+    {
+      "id": "8D5A7FE6-416C-F63C-37D2-D825836B79D5",
+      "name": "mattis semper, dui",
+      "price": 68,
+      "tax_percentage": 2,
+      "stock": 20
+    },
+    {
+      "id": "EB8EDA91-D0A5-245B-DADD-D1F4226A25CA",
+      "name": "lorem ipsum",
+      "price": 51,
+      "tax_percentage": 4,
+      "stock": 29
+    },
+    {
+      "id": "3577362D-2C4F-CAE5-C943-18CAABEDDEB5",
+      "name": "nulla.",
+      "price": 72,
+      "tax_percentage": 10,
+      "stock": 25
+    },
+    {
+      "id": "525294D1-B2C0-9E62-E692-1D3DE47B8C37",
+      "name": "risus. Quisque",
+      "price": 2,
+      "tax_percentage": 8,
+      "stock": 16
+    },
+    {
+      "id": "128D603B-CFC3-1A43-5BC9-45C537CCDE72",
+      "name": "mauris sapien, cursus",
+      "price": 52,
+      "tax_percentage": 7,
+      "stock": 33
+    },
+    {
+      "id": "5D11DC09-3C6E-7CFB-9C2B-88743D59DEA0",
+      "name": "Mauris eu",
+      "price": 98,
+      "tax_percentage": 6,
+      "stock": 25
+    },
+    {
+      "id": "9B06F466-6177-9735-4334-133B60A57899",
+      "name": "cursus,",
+      "price": 73,
+      "tax_percentage": 5,
+      "stock": 48
+    },
+    {
+      "id": "9D191E52-2FFF-1077-1B77-02BD9557F87A",
+      "name": "adipiscing",
+      "price": 20,
+      "tax_percentage": 3,
+      "stock": 27
+    },
+    {
+      "id": "6BB36684-2EEF-2EB6-57D4-6071665CD152",
+      "name": "Donec tempor,",
+      "price": 87,
+      "tax_percentage": 9,
+      "stock": 23
+    },
+    {
+      "id": "7E706B59-BA93-7784-B6C0-36B3D850A0A9",
+      "name": "In lorem.",
+      "price": 92,
+      "tax_percentage": 6,
+      "stock": 43
+    },
+    {
+      "id": "5C19F850-6A41-1237-DECA-6756F472A97D",
+      "name": "In lorem.",
+      "price": 73,
+      "tax_percentage": 9,
+      "stock": 3
+    },
+    {
+      "id": "A49126F4-AD37-9467-E67A-59E7C3BD8785",
+      "name": "Mauris vel turpis.",
+      "price": 72,
+      "tax_percentage": 5,
+      "stock": 21
+    },
+    {
+      "id": "919F5BC9-BCA2-184A-A48D-68C709217899",
+      "name": "scelerisque neque sed",
+      "price": 87,
+      "tax_percentage": 2,
+      "stock": 34
+    },
+    {
+      "id": "F8F52B7A-3398-A902-5F8B-EBDAE5DF93EA",
+      "name": "mauris",
+      "price": 27,
+      "tax_percentage": 9,
+      "stock": 49
+    },
+    {
+      "id": "988DDECA-27B7-DDFA-5DDA-77162C1E2E12",
+      "name": "imperdiet, erat",
+      "price": 31,
+      "tax_percentage": 8,
+      "stock": 4
+    },
+    {
+      "id": "8E4DD4E3-3433-6E10-5CB1-47973A7F8936",
+      "name": "facilisi.",
+      "price": 52,
+      "tax_percentage": 1,
+      "stock": 32
+    },
+    {
+      "id": "0A11CFB3-8451-B789-5EEB-CE574732578F",
+      "name": "ligula elit,",
+      "price": 14,
+      "tax_percentage": 2,
+      "stock": 30
+    },
+    {
+      "id": "114D8EFD-E875-65E5-1D5E-4662E77459FD",
+      "name": "amet orci.",
+      "price": 45,
+      "tax_percentage": 6,
+      "stock": 20
+    },
+    {
+      "id": "A53C1899-A30A-2D16-2183-8447D5F30621",
+      "name": "vestibulum lorem,",
+      "price": 48,
+      "tax_percentage": 6,
+      "stock": 29
+    },
+    {
+      "id": "2A33F298-1F91-373B-9784-2BABC2109437",
+      "name": "ac urna.",
+      "price": 51,
+      "tax_percentage": 2,
+      "stock": 24
+    },
+    {
+      "id": "61437FF3-87E1-05C3-7D23-BE057B99CF79",
+      "name": "convallis erat,",
+      "price": 77,
+      "tax_percentage": 1,
+      "stock": 9
+    },
+    {
+      "id": "23D9C4D5-5F4C-3DDD-8456-485931139869",
+      "name": "dui",
+      "price": 20,
+      "tax_percentage": 4,
+      "stock": 48
+    },
+    {
+      "id": "EE581578-2715-FCA8-E432-D1C4E16A7EDE",
+      "name": "cursus non,",
+      "price": 80,
+      "tax_percentage": 8,
+      "stock": 49
+    },
+    {
+      "id": "FD17D411-9E57-873A-71DE-C69AA47EA6FE",
+      "name": "gravida. Aliquam",
+      "price": 82,
+      "tax_percentage": 4,
+      "stock": 2
     }
   ]
 }
