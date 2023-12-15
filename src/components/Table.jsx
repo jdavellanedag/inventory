@@ -4,7 +4,7 @@ import {useLoadData} from "../hooks/useLoadData.jsx";
 
 const Table = ({data, type, filter, criteria}) => {
 
-    const {fields, onSearchCallBack, filteredData} = useLoadData(data, type, filter);
+    const {fields, onSearchCallBack, filteredData} = useLoadData(data, filter);
 
     return (
         <div className="flex flex-col p-2 gap-y-5">

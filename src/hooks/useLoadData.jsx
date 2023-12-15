@@ -1,13 +1,13 @@
 import {useState} from "react";
 
-export const useLoadData = (data, type, filter) => {
+export const useLoadData = (data, filter) => {
 
-    const [filteredData, setFilteredData] = useState(data[type]);
+    const [filteredData, setFilteredData] = useState(data);
 
-    const fields = Object.keys(data[type].find((e) => e.id !== undefined));
+    const fields = Object.keys(data[0]);
 
     const onSearchCallBack = (searchCriteria) => {
-        const filteredItems = data[type].filter((element) =>
+        const filteredItems = data.filter((element) =>
             element[filter].toLowerCase().includes(searchCriteria.toLowerCase())
         )
         setFilteredData(filteredItems);
