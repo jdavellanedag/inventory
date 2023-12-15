@@ -2,20 +2,19 @@ import {useParams} from "react-router-dom";
 import NavBar from "../components/NavBar.jsx";
 import Footer from "../components/Footer.jsx";
 
-const Products = () => {
-
+const OrderDetails = () => {
     const params = useParams();
-    const productId = params.productId;
+    const orderId = params.orderId;
 
     return (
         <>
             <NavBar />
             <div>
-                Producto {productId}
+                Order {orderId}
             </div>
             <Footer />
         </>
     );
 };
 
-export default Products;
+export default OrderDetails;
