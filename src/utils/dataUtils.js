@@ -8,3 +8,11 @@ export const getProducts = () => {
 export const getOrders = () => {
     return orders.orders;
 }
+
+export const getProductById = (productId) => {
+    return getProducts().find((product) => product.id === productId);
+}
+
+export const getOrdersByProductId = (productId) => {
+    return getOrders().filter((order) => order.product_id === productId);
+}
