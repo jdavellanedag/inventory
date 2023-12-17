@@ -1,16 +1,14 @@
 import {FiSearch} from "react-icons/fi";
-import {useState} from "react";
+import {useEffect} from "react";
+import {useInputField} from "../hooks/useInputField.jsx";
 
 const SearchBar = ({callback: onSearchCallback, criteria}) => {
 
-    const [searchCriteria, setSearchCriteria] = useState("");
+    const [searchCriteria, handleSearch] = useInputField("");
 
-    const handleSearch = (e) => {
-        const searchItem = e.target.value;
-        setSearchCriteria(searchItem);
-
-        onSearchCallback(searchItem);
-    }
+    useEffect(() => {
+        onSearchCallback(searchCriteria);
+    }, [searchCriteria]);
 
     return (
         <div>

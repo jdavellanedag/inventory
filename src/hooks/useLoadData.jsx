@@ -16,7 +16,8 @@ export const useLoadData = (data, filter) => {
     return {
         fields,
         onSearchCallBack,
-        filteredData
+        filteredData,
+        setFilteredData
     }
 
 }

@@ -4,14 +4,16 @@ import {useParams} from "react-router-dom";
 import NavBar from "../components/NavBar.jsx";
 import Footer from "../components/Footer.jsx";
 import Table from "../components/Table.jsx";
-import {getOrdersByProductId, getProductById} from "../utils/dataUtils.js";
+import OrderModal from "../components/OrderModal.jsx";
+import {createNewOrder, getOrdersByProductId, getProductById} from "../utils/dataUtils.js";
 
 import { MdAddShoppingCart } from "react-icons/md";
 
 
 const Products = () => {
     const [ordersData, setOrdersData] = useState([]);
-    const [isLoading, setIsLoading] = useState(true)
+    const [isLoading, setIsLoading] = useState(true);
+    const [showModal, setShowModal] = useState(false);
     const [product, setProduct] = useState({});
     const params = useParams();
     const productId = params.productId;
@@ -23,17 +25,18 @@ const Products = () => {
     }, [productId]);
 
     const onClick = () => {
-        console.log("This will show a modal with add stock options WIP :)")
-        const newOrder = {
-                "id": "10",
-                "product_id": "9134431A-C9D5-C77C-589D-546C6822E5A0",
-                "vendor": "Suministros SA",
-                "quantity": "10",
-                "status": "PEDIDO"
-        };
-        // TODO: This is not refreshing the table automatically,
-        // the change happens only after reload the filtered data while searching
-        setOrdersData([...ordersData, newOrder]);
+        setShowModal(!showModal);
+    }
+
+    const handleOrder = (quantity, vendor) => {
+        const ordersUpdated = createNewOrder({
+            "id": (ordersData.length + 1).toString(),
+            "product_id": productId,
+            "vendor": vendor,
+            "quantity": quantity,
+            "status": "PEDIDO"
+        });
+        setOrdersData(ordersUpdated);
     }
 
     return (
@@ -45,6 +48,7 @@ const Products = () => {
                     <button onClick={onClick} type="button" className="text-bone font-bold bg-blue-light hover:bg-blue-dark rounded-lg px-5 py-2.5 text-center inline-flex items-center me-2">
                        <MdAddShoppingCart className="me-2" size={24}/> Hacer pedido
                     </button>
+                    <OrderModal visible={showModal} close={() => setShowModal(false)} callback={handleOrder}/>
                 </div>
                 {ordersData.length !== 0 && (
                     <div className="flex flex-col p-2">

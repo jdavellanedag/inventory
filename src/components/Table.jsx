@@ -1,10 +1,15 @@
 import {Link} from "react-router-dom";
 import SearchBar from "./SearchBar.jsx";
 import {useLoadData} from "../hooks/useLoadData.jsx";
+import {useEffect} from "react";
 
 const Table = ({data, type, filter, criteria}) => {
 
-    const {fields, onSearchCallBack, filteredData} = useLoadData(data, filter);
+    const {fields, onSearchCallBack, filteredData, setFilteredData} = useLoadData(data, filter);
+
+    useEffect(() => {
+        setFilteredData(data)
+    }, [data, setFilteredData]);
 
     return (
         <div className="flex flex-col p-2 gap-y-5">
