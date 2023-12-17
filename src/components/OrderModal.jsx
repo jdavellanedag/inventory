@@ -8,8 +8,8 @@ const OrderModal = ({visible, close, callback}) => {
     const [vendor, handleVendorValue] = useInputField("");
 
     const  handleConfirmation = () => {
-        close();
         if (order > 0 && vendor !== "") {
+            close();
             callback(order, vendor);
         }
     }
