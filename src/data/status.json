@@ -1,0 +1,9 @@
+{
+  "status": [
+    "PEDIDO",
+    "ACEPTADO",
+    "EN CAMINO",
+    "CANCELADO",
+    "ENTREGADO"
+  ]
+}
