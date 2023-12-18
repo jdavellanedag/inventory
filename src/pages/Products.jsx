@@ -43,23 +43,46 @@ const Products = () => {
         <>
             <NavBar />
             <div className="p-8">
-                {!isLoading && <div>Producto: {product.name}</div>}
+                {!isLoading && <div className="flex flex-col gap-y-5 mb-4">
+                    <h1 className="text-2xl">Detalles del producto</h1>
+                    <hr/>
+                    <table className="table-auto w-full text-left">
+                        <thead className="text-sm uppercase bg-black-soft text-white">
+                        <tr className="[&>*]:px-1 [&>*]:py-3">
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Porcentaje impuesto</th>
+                            <th>Disponible</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>{product.id}</td>
+                            <td>{product.name}</td>
+                            <td>{product.price}</td>
+                            <td>{product.tax_percentage}</td>
+                            <td>{product.stock}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>}
                 <div>
-                    <button onClick={onClick} type="button" className="text-bone font-bold bg-blue-light hover:bg-blue-dark rounded-lg px-5 py-2.5 text-center inline-flex items-center me-2">
-                       <MdAddShoppingCart className="me-2" size={24}/> Hacer pedido
+                    <button onClick={onClick} type="button"
+                            className="text-bone font-bold bg-blue-light hover:bg-blue-dark rounded-lg px-5 py-2.5 text-center inline-flex items-center me-2">
+                        <MdAddShoppingCart className="me-2" size={24}/> Hacer pedido
                     </button>
                     <OrderModal visible={showModal} close={() => setShowModal(false)} callback={handleOrder}/>
                 </div>
                 {ordersData.length !== 0 && (
-                    <div className="flex flex-col p-2">
-                        <div className="font-bold text-center">
-                            <p>Ordenes</p>
-                        </div>
-                        <Table data={ordersData} filter="vendor" criteria="distribuidor" type="orders" />
+                    <div className="flex flex-col mt-10 gap-y-5">
+                        <h1 className="text-left text-xl">Ordenes</h1>
+                        <hr/>
+                        <Table data={ordersData} filter="vendor" criteria="distribuidor" type="orders"/>
                     </div>
                 )}
             </div>
-            <Footer />
+            <Footer/>
         </>
     );
 };
