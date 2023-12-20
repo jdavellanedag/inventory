@@ -2,7 +2,7 @@ import {Link, useParams} from "react-router-dom";
 import NavBar from "../components/NavBar.jsx";
 import Footer from "../components/Footer.jsx";
 import {useEffect, useState} from "react";
-import {getOrderById} from "../utils/dataUtils.js";
+import {getOrderById, updateOrderStatus, updateProductStockById} from "../utils/dataUtils.js";
 import OrderStatus from "../components/OrderStatus.jsx";
 
 const OrderDetails = () => {
@@ -20,7 +20,10 @@ const OrderDetails = () => {
     }, [orderId, order]);
 
     const handleStatusChange = (status) => {
-        console.log(status)
+        const orderUpdated = updateOrderStatus(orderId, status);
+        if (orderUpdated.status === "ENTREGADO") {
+            updateProductStockById(orderUpdated.product_id, order.quantity);
+        }
     }
 
     return (
