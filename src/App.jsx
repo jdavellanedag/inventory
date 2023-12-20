@@ -1,10 +1,11 @@
-import Navigation from "./routes/Navigation.jsx";
+import {RouterProvider} from "react-router-dom";
+import router from "./routes/Router.jsx";
 
 const App = () => {
 
   return (
       <>
-        <Navigation />
+        <RouterProvider router={router}/>
       </>
   )
 }
