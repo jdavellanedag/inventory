@@ -11,7 +11,7 @@ export const getProductById = (productId) => {
 
 export const createNewOrder = (order) => {
     const result = getOrdersByProductId(order.product_id);
-    result.push(order);
+    result.push({id: orders.orders.length + 1, ...order});
     return result;
 }
 

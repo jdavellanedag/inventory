@@ -1,11 +1,14 @@
 import {RouterProvider} from "react-router-dom";
+import {DataProvider} from "./context/DataContext.jsx";
 import router from "./routes/Router.jsx";
 
 const App = () => {
 
   return (
       <>
-        <RouterProvider router={router}/>
+          <DataProvider>
+              <RouterProvider router={router}/>
+          </DataProvider>
       </>
   )
 }

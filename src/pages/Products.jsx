@@ -30,7 +30,6 @@ const Products = () => {
 
     const handleOrder = (quantity, vendor) => {
         const ordersUpdated = createNewOrder({
-            "id": (ordersData.length + 1).toString(),
             "product_id": productId,
             "vendor": vendor,
             "quantity": quantity,
