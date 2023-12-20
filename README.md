@@ -28,4 +28,4 @@ npm run dev
 
 ### Demo online
 
-[Vercel URL](https://inventory-sage.vercel.app/home)
+[Vercel URL](https://inventory-sage.vercel.app)
