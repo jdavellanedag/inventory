@@ -1,20 +1,23 @@
-import {useEffect, useState} from "react";
-import {useParams} from "react-router-dom";
+import {useContext, useEffect, useState} from "react";
+import {useParams, useNavigate} from "react-router-dom";
 
+import {DataContext} from "../context/DataContext.jsx";
 import NavBar from "../components/NavBar.jsx";
 import Footer from "../components/Footer.jsx";
 import Table from "../components/Table.jsx";
 import OrderModal from "../components/OrderModal.jsx";
-import {createNewOrder, getOrdersByProductId, getProductById} from "../utils/dataUtils.js";
+import {createNewOrder, deleteProductById, getOrdersByProductId, getProductById} from "../utils/dataUtils.js";
 
 import { MdAddShoppingCart } from "react-icons/md";
-
+import { MdDeleteForever } from "react-icons/md";
 
 const Products = () => {
     const [ordersData, setOrdersData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [showModal, setShowModal] = useState(false);
+    const navigate = useNavigate();
     const [product, setProduct] = useState({});
+    const {data, setData} = useContext(DataContext);
     const params = useParams();
     const productId = params.productId;
 
@@ -24,8 +27,14 @@ const Products = () => {
         setIsLoading(false);
     }, [productId]);
 
-    const onClick = () => {
+    const handleNewOrder = () => {
         setShowModal(!showModal);
+    }
+
+    const handleDeleteProduct = () => {
+        const products = deleteProductById(productId);
+        setData({products: products, orders: data.orders});
+        navigate("/home");
     }
 
     const handleOrder = (quantity, vendor) => {
@@ -66,10 +75,14 @@ const Products = () => {
                         </tbody>
                     </table>
                 </div>}
-                <div>
-                    <button onClick={onClick} type="button"
+                <div className="flex">
+                    <button onClick={handleNewOrder} type="button"
                             className="text-bone font-bold bg-blue-light hover:bg-blue-dark rounded-lg px-5 py-2.5 text-center inline-flex items-center me-2">
                         <MdAddShoppingCart className="me-2" size={24}/> Hacer pedido
+                    </button>
+                    <button onClick={handleDeleteProduct} type="button"
+                            className="text-bone font-bold bg-red hover:bg-blue-dark rounded-lg px-5 py-2.5 text-center inline-flex items-center me-2">
+                        <MdDeleteForever className="me-2" size={24}/> Eliminar producto
                     </button>
                     <OrderModal visible={showModal} close={() => setShowModal(false)} callback={handleOrder}/>
                 </div>

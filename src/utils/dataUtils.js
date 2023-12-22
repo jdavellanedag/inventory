@@ -6,12 +6,28 @@ export const getProducts = () => {
 }
 
 export const getProductById = (productId) => {
-    return getProducts().find((product) => product.id === productId);
+    return getProducts().find((product) => product.id == productId);
 }
 
 export const updateProductStockById = (productId, quantity) => {
     const product = getProductById(productId);
     product.stock = product.stock + quantity;
+}
+
+export const createProduct = ({name, price, taxes}) => {
+    const products = getProducts();
+    products.push({
+        id: products.length + 1,
+        name,
+        price,
+        tax_percentage: taxes,
+        stock: 0
+    });
+    return products;
+}
+
+export const deleteProductById = (productId) => {
+    return getProducts().filter(product => product.id != productId);
 }
 
 export const createNewOrder = (order) => {

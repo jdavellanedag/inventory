@@ -7,13 +7,13 @@ import Table from "../components/Table.jsx";
 import {DataContext} from "../context/DataContext.jsx";
 const Orders = () => {
 
-    const { orders: data } = useContext(DataContext);
+    const { data } = useContext(DataContext);
 
     return (
         <>
             <NavBar/>
-                <div>
-                    <Table data={data} type="orders" filter="vendor" criteria="distribuidor"/>
+                <div className="py-3 px-10">
+                    <Table data={data.orders} type="orders" filter="vendor" criteria="distribuidor"/>
                 </div>
             <Footer/>
         </>

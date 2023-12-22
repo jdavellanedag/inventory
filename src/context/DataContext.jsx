@@ -15,7 +15,7 @@ export const DataProvider = ({children}) => {
     }, []);
 
     return (
-        <DataContext.Provider value={data}>
+        <DataContext.Provider value={{data, setData}}>
             { !isLoading && children}
         </DataContext.Provider>
     )

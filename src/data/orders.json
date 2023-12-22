@@ -2,28 +2,28 @@
   "orders": [
     {
       "id": "1",
-      "product_id": "9134431A-C9D5-C77C-589D-546C6822E5A0",
+      "product_id": "1",
       "vendor": "Suministros SA",
       "quantity": 2,
       "status": "PEDIDO"
     },
     {
       "id": "2",
-      "product_id": "9134431A-C9D5-C77C-589D-546C6822E5A0",
+      "product_id": "1",
       "vendor": "Suministros SA",
       "quantity": 2,
       "status": "ACEPTADO"
     },
     {
       "id": "3",
-      "product_id": "9134431A-C9D5-C77C-589D-546C6822E5A0",
+      "product_id": "1",
       "vendor": "Envios SA",
       "quantity": 2,
       "status": "EN CAMINO"
     },
     {
       "id": "4",
-      "product_id": "9134431A-C9D5-C77C-589D-546C6822E5A0",
+      "product_id": "1",
       "vendor": "Envios SA",
       "quantity": 2,
       "status": "ENTREGADO"

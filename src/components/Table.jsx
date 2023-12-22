@@ -12,7 +12,7 @@ const Table = ({data, type, filter, criteria}) => {
     }, [data, setFilteredData]);
 
     return (
-        <div className="flex flex-col p-2 gap-y-5">
+        <div className="flex flex-col gap-y-5">
             <SearchBar callback={onSearchCallBack} criteria={criteria}/>
             <div>
                 <table className="w-full text-left text-sm">
