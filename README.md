@@ -29,3 +29,7 @@ npm run dev
 ### Demo online
 
 [Vercel URL](https://inventory-sage.vercel.app)
+
+### Presentacion
+
+[URL de video](https://alumnosunir-my.sharepoint.com/:v:/g/personal/julian_avellaneda017_comunidadunir_net/EaWyvfHgP3NBtwXOxbvirrkBO6e7nhfmdMLOICp-i46ltQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sFMoDb)
